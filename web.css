@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-container {
+    background-image: url("https://media.istockphoto.com/id/2099357117/vector/heart-pulse-and-heartbeat-heartbeat-lone-cardiogram-beautiful-healthcare-medical-background.jpg?s=612x612&w=0&k=20&c=5agokqkO2Ls-JGCXC5eYl8mH_EO1ZnihZc-pEYtVBOI=");
+    height: 100vh;
+    background-size: cover;
+}
+
+.main-card {
+    text-align: center;
+    background-color: white;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 50px;
+}
+
+.button {
+    color: #2d383b;
+    font-weight: bold;
+    background-color: transparent;
+    width: 130px;
+    height: 45px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #2d383b;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.button-transparent {
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    width: 130px;
+    height: 45px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 8px;
+}
+
+.main-heading {
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+
+}
+
+.paragraph {
+    font-family: "Franklin Gothic Book";
+}
+
+.healthissues-bg-container {
+    background-image: url("https://media.istockphoto.com/id/2099357117/vector/heart-pulse-and-heartbeat-heartbeat-lone-cardiogram-beautiful-healthcare-medical-background.jpg?s=612x612&w=0&k=20&c=5agokqkO2Ls-JGCXC5eYl8mH_EO1ZnihZc-pEYtVBOI=");
+    height: 100%;
+    background-size: cover;
+    padding: 24px;
+}
+
+.healthissues-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.healthissues-card-container {
+    background-color: lightblue;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.healthissues-card-heading {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.healthissues-card-description {
+    color: #191969;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.healthissues-card-image {
+    width: 80px;
+    height: 100px;
+}
+
+.healthissues-card-text-container {
+    margin-right: 15px;
+}
+
+.over-view-bg-container {
+    background-image: url("https://media.istockphoto.com/id/2099357117/vector/heart-pulse-and-heartbeat-heartbeat-lone-cardiogram-beautiful-healthcare-medical-background.jpg?s=612x612&w=0&k=20&c=5agokqkO2Ls-JGCXC5eYl8mH_EO1ZnihZc-pEYtVBOI=");
+    height: 100%;
+    background-size: cover;
+}
+
+.over-view-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: bold;
+    padding: 24px;
+}
+
+.over-view-card-container {
+    background-color: lightblue;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin: 24px;
+}
+
+.over-view-card-heading {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.over-view-card-description {
+    color: #040763;
+    font-family: "Roboto";
+    font-size: 13px;
+}
+
+.over-view-card-text-container {
+    padding: 16px;
+}
+
+.bullets {
+    list-style-type: decimal;
+}
