@@ -1,139 +1,309 @@
-@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700&display=swap");
 
-.bg-container {
-    background-image: url("https://media.istockphoto.com/id/2099357117/vector/heart-pulse-and-heartbeat-heartbeat-lone-cardiogram-beautiful-healthcare-medical-background.jpg?s=612x612&w=0&k=20&c=5agokqkO2Ls-JGCXC5eYl8mH_EO1ZnihZc-pEYtVBOI=");
+.food-munch-logo {
+    width: 80px;
+    height: 70px;
+}
+
+#navItem1 {
+    color: #9132a8;
+    font-family: "Roboto";
+}
+
+#navItem2 {
+    color: #9132a8;
+    font-family: "Roboto";
+}
+
+#navItem3 {
+    color: #9132a8;
+    font-family: "Roboto";
+}
+
+#navItem4 {
+    color: #9132a8;
+    font-family: "Roboto";
+}
+
+.banner-section-bg-container {
+    background-image: url("https://media.istockphoto.com/id/1191431501/photo/cheerful-pregnant-lady-touching-belly-standing-on-pink-background.jpg?s=612x612&w=0&k=20&c=otW4xcoJCYZCHdUCG8UvT2Ju5xAciX1tqI1gdvJV-OU=");
     height: 100vh;
     background-size: cover;
 }
 
-.main-card {
-    text-align: center;
-    background-color: white;
-    border-radius: 25px;
-    padding: 5px;
-    margin: 50px;
+.banner-heading {
+    color: black;
+    font-family: "Roboto";
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.banner-caption {
+    color: black;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.custom-button {
+    color: black;
+    background-color: #9132a8;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.custom-outline-button {
+    color: black;
+    background-color: transparent;
+    width: 130px;
+    height: 45px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #9132a8;
+    border-radius: 20px;
 }
 
 .button {
-    color: #2d383b;
-    font-weight: bold;
+    border-radius: 8px;
     background-color: transparent;
-    width: 130px;
-    height: 45px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #2d383b;
-    border-radius: 8px;
-    padding: 5px;
-}
-
-.button-transparent {
-    color: white;
-    font-weight: bold;
-    background-color: transparent;
-    width: 130px;
-    height: 45px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: white;
-    border-radius: 8px;
-}
-
-.main-heading {
-    font-family: "Roboto";
-    font-size: 25px;
-    font-weight: bold;
-    padding: 10px;
-
-}
-
-.paragraph {
-    font-family: "Franklin Gothic Book";
-}
-
-.healthissues-bg-container {
-    background-image: url("https://media.istockphoto.com/id/2099357117/vector/heart-pulse-and-heartbeat-heartbeat-lone-cardiogram-beautiful-healthcare-medical-background.jpg?s=612x612&w=0&k=20&c=5agokqkO2Ls-JGCXC5eYl8mH_EO1ZnihZc-pEYtVBOI=");
-    height: 100%;
-    background-size: cover;
-    padding: 24px;
-}
-
-.healthissues-heading {
-    color: white;
-    font-family: "Roboto";
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.healthissues-card-container {
-    background-color: lightblue;
-    border-radius: 8px;
-    padding: 16px;
-    margin-bottom: 15px;
+    border-width: 1px;
+    height: 40px;
+    width: 120px;
     text-align: center;
+    border-color: black;
+    border-style: solid;
 }
 
-.healthissues-card-heading {
-    color: #0f0e46;
-    font-family: "Roboto";
-    font-size: 23px;
-    font-weight: bold;
+.card1 {
+    background-color: #F3C1C0;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+    color: #115c59;
+    width: 50%;
 }
 
-.healthissues-card-description {
-    color: #191969;
-    font-family: "Roboto";
-    font-weight: bold;
-    font-size: 18px;
+.card2 {
+    background-color: #F8C2A4;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+    color: #80297d;
+    width: 50%;
 }
 
-.healthissues-card-image {
-    width: 80px;
-    height: 100px;
+.card3 {
+    background-color: #89e8c8;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+    color: #13543f;
+    width: 50%;
 }
 
-.healthissues-card-text-container {
-    margin-right: 15px;
+.card4 {
+    background-color: #b47cd6;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+    color: #321b40;
+    width: 50%;
 }
 
-.over-view-bg-container {
-    background-image: url("https://media.istockphoto.com/id/2099357117/vector/heart-pulse-and-heartbeat-heartbeat-lone-cardiogram-beautiful-healthcare-medical-background.jpg?s=612x612&w=0&k=20&c=5agokqkO2Ls-JGCXC5eYl8mH_EO1ZnihZc-pEYtVBOI=");
-    height: 100%;
+.card5 {
+    background-color: #95BB72;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+    color: #325229;
+    width: 50%;
+}
+
+.card6 {
+    background-color: #92B1B6;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+    color: #294152;
+    width: 50%;
+}
+
+.card7 {
+    background-color: #FAE588;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+    color: #524b29;
+    width: 50%;
+}
+
+.card8 {
+    background-color: #ECB992;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+    color: #522943;
+    width: 50%;
+}
+
+.card9 {
+    background-color: #76a796;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+    color: #29523f;
+    width: 50%;
+}
+
+.card10 {
+    background-color: #FFC067;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+    color: #524429;
+    width: 50%;
+}
+
+.dietnutrition {
+    background-color: #F3C1C0;
+    padding: 20px;
+    background-size: cover;
+    width: 60%;
+    border-radius: 20px;
+    margin: 100px;
+}
+
+.dietheading {
+    font-size: 30px;
+}
+
+.imgdiet {
+    height: 50%;
+    width: 50%;
+}
+
+.exercisefitness {
+    background-color: #F8C2A4;
+    margin: 100px;
+    padding: 20px;
+    background-size: cover;
+    width: 60%;
+    border-radius: 20px;
+}
+
+.medicalcheckup {
+    background-color: #89e8c8;
+    padding: 20px;
+    background-size: cover;
+    margin: 100px;
+    width: 60%;
+    border-radius: 20px;
+}
+
+.Mentalemotionalhealth {
+    background-color: #b47cd6;
+    padding: 20px;
+    background-size: cover;
+    margin: 100px;
+    width: 60%;
+    border-radius: 20px;
+}
+
+.babydevelopment {
+    background-color: #95BB72;
+    padding: 20px;
+    background-size: cover;
+    width: 60%;
+    border-radius: 20px;
+    margin: 100px;
+}
+
+.lifestyle {
+    background-color: #92B1B6;
+    padding: 20px;
+    background-size: cover;
+    margin: 100px;
+    width: 60%;
+    border-radius: 20px;
+}
+
+.guide {
+    background-color: #FAE588;
+    padding: 20px;
+    background-size: cover;
+    width: 60%;
+    margin: 100px;
+    border-radius: 20px;
+}
+
+.hospitalanddoctor {
+    background-color: #ECB992;
+    padding: 20px;
+    background-size: cover;
+    width: 60%;
+    margin: 100px;
+    border-radius: 20px;
+}
+
+.preparingforbaby {
+    background-color: #76a796;
+    padding: 20px;
+    color: white;
+    width: 60%;
+    border-radius: 20px;
+    background-size: cover;
+    margin: 100px;
+}
+
+.community {
+    background-color: #FFC067;
+    padding: 20px;
+    width: 60%;
+    border-radius: 20px;
+    background-size: cover;
+    margin: 100px;
+}
+
+.diwali-top-section {
+    background-image: url("https://m.media-amazon.com/images/I/71+e9+OJEzS.jpg");
+    height: 70vh;
     background-size: cover;
 }
 
-.over-view-heading {
-    color: white;
-    font-family: "Roboto";
-    font-size: 28px;
-    font-weight: bold;
-    padding: 24px;
+
+.diwali-bottom-section {
+    text-align: center;
+    background-color: #F3C1C0;
+    padding: 15px;
 }
 
-.over-view-card-container {
-    background-color: lightblue;
-    border-bottom-right-radius: 8px;
-    border-bottom-left-radius: 8px;
-    margin: 24px;
-}
-
-.over-view-card-heading {
-    color: #0f0e46;
-    font-family: "Roboto";
-    font-size: 23px;
-    font-weight: bold;
-}
-
-.over-view-card-description {
-    color: #040763;
-    font-family: "Roboto";
-    font-size: 13px;
-}
-
-.over-view-card-text-container {
+.diwali-card-item {
+    text-align: center;
+    background-color: white;
+    width: 500px;
+    border-radius: 9px;
     padding: 16px;
+    margin: 15px;
 }
 
-.bullets {
-    list-style-type: decimal;
+.diwali-card-image {
+    height: 100px;
+    width: 150px;
+}
+
+.diwali-card-name {
+    color: #616e7c;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.diwali-card-price {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
 }
